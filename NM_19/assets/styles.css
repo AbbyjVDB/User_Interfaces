@@ -1,0 +1,20 @@
+/* Stylesheet */
+.centered-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.centered-cards .col {
+    flex: 0 0 auto;
+    max-width: 350px;
+}
+
+A{
+    background-color:black;
+}
+
+A:hover{
+    background-color:white;
+    color:brown;
+}
