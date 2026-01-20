@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/JavaScript">
+        function display(){
+            var i;
+            var Tablesize = parseInt(window.prompt("Please enter a number for your Table: ", "0"));
+            for(i = 1; i <= 10; i++){
+                document.write(Tablesize + " x " + i + " = " + (Tablesize * i));
+                document.write("\n");
+            }
+        }
+        function multiples(){
+            var n;
+            n = parseInt(window.prompt("Please enter a number: ", "0"));
+            document.write("Squared: \n" + (n * n) + " Cubed: " + (n * n * n));
+        }
+        function compare(){
+            var num1 = parseInt(window.prompt("Please enter a number: ", "0"));
+            var num2 = parseInt(window.prompt("Please enter another number: ", "0"));
+            if(num1 < num2){
+                document.write(num1 + " is less than " + num2);
+
+            }else if(num1 > num2){
+                document.write(num1 + " is greater than " + num2);
+            }else{
+                document.write(num1 + " is equal to " + num2);
+            }
+        }
+        function max(){
+            var a = parseInt(window.prompt("Please enter a number: ", "0"));
+            var b = parseInt(window.prompt("Please enter a 2nd number: ", "0"));
+            var c = parseInt(window.prompt("Please enter a 3rd number: ", "0"));
+            var d = parseInt(window.prompt("Please enter a 4th number: ", "0"));
+            var maximum = Math.max(Math.max(a, b), Math.max(c, d));
+            document.write("First number: " + a + "\n Second number: " + b + "\n Third number: " + c + "\n Fourth Number: "+ d + "\n and the max of these numbers is: " + maximum);
+        }
+        
+    </script>
+    <title>Document</title>
+</head>
+<body onload = "max()">
+    
+</body>
+</html>

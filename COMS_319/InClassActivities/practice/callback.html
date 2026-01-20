@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //synchronous callback
+        // function performTasks(callback){
+        //     console.log("This function execute tasks.");
+        //     callback(5);
+        //     callback(6);
+        // }
+        //asynchronous callback
+        // function performTasks(callback){
+        //     setTimeout(function(){
+        //         console.log("This function execute tasks.");
+        //         callback(5);
+        //         callback(6);
+        //     }, 4000);
+        // }
+        const performTasks = callback =>{
+            setTimeout(function(){
+               console.log("This function execute tasks.");
+                callback(5);
+                callback(6);
+            }, 4000);
+        }
+        let doubleEven = n => {
+            if (n % 2 === 0) {
+                console.log("Even number, double is:", n * 2);
+            } else {
+                console.log("Odd number :", n);
+            }
+        }
+
+        performTasks(doubleEven);
+        console.log("Doing something else while waiting....");
+        
+        function multiply(a, b){
+            console.log(a*b);
+            return a*b;
+        }
+        function square(n){
+            console.log(n);
+            return multiply(n, n)
+        }
+        function printSquare(n){
+            let sq = square(n)
+            console.log(sq)
+        }
+        console.log("start");
+        printSquare(5)
+        console.log("finish");
+
+
+        console.log("1?");
+        setTimeout(() => {console.log("2?")}, 3000);
+        console.log("3?");
+        setTimeout(() => {console.log("4?")}, 3000);
+        console.log("5?");
+        setTimeout(() => {console.log("6?")}, 3000);
+        console.log("7?");
+    </script>
+</body>
+</html>

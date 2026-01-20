@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function add(a,b){
+            return a + b;
+        }
+
+        const subtract = (a,b) =>{
+            return a - b;
+        };
+
+        const multiply = (a, b) => a * b;
+
+        const greet = () => console.log("Hello World!");
+
+        console.log(add(5,3));
+        console.log(subtract(10, 4));
+        console.log(multiply(3,7))
+        greet();
+
+
+        //exercise
+        function greeting(name) {
+            return "Hello, " + name + "!";
+        }
+        //converted into arrow function
+        const greetArrowing = name => console.log("Hello,", name);
+
+        console.log(greeting("Alice")); // Output: Hello, Alice!
+        console.log(greetArrowing("Bob")); // Output: Hello, Bob!
+
+
+        //exercise #2
+        function addNumbersTF(arr){
+            let total = 0;
+            for (let number of arr){
+                total += number;
+            }
+            return total;
+        }
+        let array = [1,2,3,4,5,6];
+        console.log("Sum using Traditional Function :",addNumbersTF(array));
+
+        const addNumbersArrowing = arr =>{
+            let total = 0;
+            for(let number of arr){
+                total+=number;
+            }
+            return total;
+        }
+        console.log("Sum using Arrow Function :",addNumbersArrowing(array));
+
+        function operation(arr){
+            let total = 0;
+            for (let number of arr){
+                total += number;
+            }
+            return total;
+        }
+        let addNumbersAF2 = arr => operation(arr);
+        console.log("Sum using Arrow Function :",addNumbersAF2(array));
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVC Counter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #counter {
+            font-size: 24px;
+            margin: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple MVC Counter</h1>
+    <div id="counter">0</div>
+    <button id="incrementBtn">Increment</button>
+
+    <script>
+        // Model
+        class CounterModel {
+            constructor() {
+                this.value = 0;
+            }
+            increment() {
+                this.value++;
+            }
+            getValue() {
+                return this.value;
+            }
+        }
+
+        // View
+        class CounterView {
+            constructor() {
+                this.counterElement = document.getElementById('counter');
+                this.incrementButton = document.getElementById('incrementBtn');
+            }
+            updateCounter(value) {
+                this.counterElement.innerText = value;
+            }
+            bindIncrement(handler) {
+                this.incrementButton.addEventListener('click', handler);
+            }
+        }
+
+        // Controller
+        class CounterController {
+            constructor(model, view) {
+                this.model = model;
+                this.view = view;
+
+                this.view.bindIncrement(this.handleIncrement.bind(this));
+                this.view.updateCounter(this.model.getValue());
+            }
+            handleIncrement() {
+                this.model.increment();
+                this.view.updateCounter(this.model.getValue());
+            }
+        }
+
+        // Initialize MVC components
+        const model = new CounterModel();
+        const view = new CounterView();
+        const controller = new CounterController(model, view);
+    </script>
+</body>
+</html>
