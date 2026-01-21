@@ -1,0 +1,229 @@
+{
+  "authors": [
+    {
+      "name": "Jackson Weatherspoon",
+      "description": "Email: jacks0nw@iastate.edu<br>Bio: A sophomore majoring in Software Engineering at ISU. Currently taking the class COMS 3190",
+      "imagePath": "./assets/images/jacksonimg.jpg",
+      "imageAlt" : "jacksonimg"
+    },
+    {
+      "name": "Abby Van Der Brink",
+      "description": " Email: ajvdb22@iastate.edu<br>Bio: Abby Van Der Brink is a senior Computer Science major at Iowa State University. She loves video games, cats, and watching horror movies. ",
+      "imagePath": "./assets/images/AbbyVDB.png",
+      "imageAlt" : "AbbyVDB"
+    },
+    {
+      "name": "Evil and Intimidating Horse",
+      "description": "Evil and Intimidating",
+      "imagePath": "./assets/images/evilandintimidatinghorse.jpeg",
+      "imageAlt" : "evilandintimidatinghorse"
+    }
+  ],
+
+  "featurettes":[
+    {
+      "title": "Nintendo Switch 2",
+      "secondaryText": "Fastest-selling game console of all time in the U.S.",
+      "content": "expensive, no money, i want to play donkey kong",
+      "imagePath": "./assets/images/switchdk.jpg",
+      "imageAlt": "switchdk"
+    },
+    {
+      "title": "Mattel Auto Race",
+      "secondaryText": "The first handheld electronic game",
+      "content": "Released in 1976, Mattel Electronics Auto Race was the first handheld electronic game to use only solid-state electronics, featuring LED “cars” powered by calculator-style hardware and a nine-volt battery. Designed by George J. Klose and programmed by Mark Lesser, the game had players steer a car between three lanes to avoid oncoming vehicles while shifting gears to change speed. Its success led to other Mattel handheld hits like Football and Baseball, as well as spin-offs such as Missile Attack and Ski Slalom, and it was even cloned in the Soviet Union as Elektronika IER-01.",
+      "imagePath": "./assets/images/autorace.jpg",
+      "imageAlt": "autorace"
+    },
+    {
+      "title": "N-Gage",
+      "secondaryText": "The console made by Nokia",
+      "content": "Released by Nokia on October 7, 2003, the N-Gage was a mobile device that combined a cellphone with a handheld gaming system, running on the Symbian OS and supporting games via MultiMediaCards and online play through N-Gage Arena. Designed to compete with the Game Boy Advance, it offered phone and gaming features in one device but was criticized for its awkward design and poor button layout, earning the nickname “taco phone.” Despite a redesigned N-Gage QD model, the system sold only about 2 million units before being discontinued in 2006, though Nokia later reused the N-Gage name for a mobile gaming platform.",
+      "imagePath": "./assets/images/ngage.png",
+      "imageAlt": "ngage"
+    }
+  ],
+
+  "earlyConsoles":[
+    {
+      "name":"Magnavox-Odyssey",
+      "released": 1972,
+      "company": "Magnavox",
+      "imagePath": "./assets/images/Magnavox-Odyssey.jpg",
+      "imageAlt": "odyssey" 
+    },
+    {
+      "name":"Atari Pong",
+      "released": 1975,
+      "company": "Atari",
+      "imagePath": "./assets/images/atari-pong.jpg",
+      "imageAlt": "Pong"  
+    },
+    {
+      "name":"Channel F",
+      "released": 1976,
+      "company": "Fairchild",
+      "imagePath": "./assets/images/channelF.jpg",
+      "imageAlt": "channelF"  
+    },
+    {
+      "name":"Atari 2600",
+      "released": 1977,
+      "company": "Atari",
+      "imagePath": "./assets/images/Atari-2600.png",
+      "imageAlt": "atari2600"  
+    },
+    {
+      "name":"Coleco Telstar",
+      "released": 1976,
+      "company": "Coleco",
+      "imagePath": "./assets/images/Coleco-Telstar.jpg",
+      "imageAlt": "gba"  
+    },
+    {
+      "name":"Intellivision",
+      "released": 1979,
+      "company": "Mattel Electronics", 
+      "imagePath": "./assets/images/Intellivision-Console.png",
+      "imageAlt": "intellivision"
+    },
+    {
+      "name":"Nintendo Entertainment System",
+      "released": 1983,
+      "company": "Nintendo", 
+      "imagePath": "./assets/images/NES-Console-Set.png",
+      "imageAlt": "NES"
+    },
+    {
+        "name": "Sega Master System",
+        "released": 1985,
+        "company": "SEGA",
+        "imagePath": "./assets/images/Sega-Master-System.jpg",
+        "imageAlt": "master"
+    }
+  ],
+
+  "risingConsoles":[
+    {
+      "name":"Dreamcast",
+      "released": 1999,
+      "company": "SEGA",
+      "imagePath": "./assets/images/dreamcast.jpg",
+      "imageAlt": "dreamcast" 
+    },
+    {
+      "name":"PlayStation 2",
+      "released": 2000,
+      "company": "Sony",
+      "imagePath": "./assets/images/ps2.jpg",
+      "imageAlt": "PS2"  
+    },
+    {
+      "name":"GameCube",
+      "released": 2001,
+      "company": "Nintendo",
+      "imagePath": "./assets/images/gamecube.jpg",
+      "imageAlt": "gc"  
+    },
+    {
+      "name":"Xbox",
+      "released": 2001,
+      "company": "Microsoft",
+      "imagePath": "./assets/images/xbox.jpg",
+      "imageAlt": "xbox"  
+    },
+    {
+      "name":"Game Boy Advance",
+      "released": 2001,
+      "company": "Nintendo",
+      "imagePath": "./assets/images/gba.png",
+      "imageAlt": "gba"  
+    },
+    {
+      "name":"N-Gage",
+      "released": 2003,
+      "company": "Nokia", 
+      "imagePath": "./assets/images/ngage.png",
+      "imageAlt": "ngage"
+    },
+    {
+      "name":"Nintendo DS",
+      "released": 2004,
+      "company": "Nintendo",
+      "imagePath": "./assets/images/ds.jpg",
+      "imageAlt": "ds"  
+    },
+    {
+      "name":"PlayStation Portable",
+      "released": 2004,
+      "company": "Sony",
+      "imagePath": "./assets/images/psp.jpg",
+      "imageAlt": "psp"  
+    },
+    {
+      "name":"Xbox 360",
+      "released": 2005,
+      "company": "Microsoft",
+      "imagePath": "./assets/images/xbox360.jpg",
+      "imageAlt": "xbox360"  
+    },
+    {
+      "name":"PlayStation 3",
+      "released": 2006,
+      "company": "Sony",
+      "imagePath": "./assets/images/ps3.jpg",
+      "imageAlt": "ps3"  
+    },
+    {
+      "name":"Wii",
+      "released": 2006,
+      "company": "Nintendo",
+      "imagePath": "./assets/images/Wii.png",
+      "imageAlt": "wii"  
+    }
+  ],
+  "modernConsoles":[
+    {
+      "name":"PS5",
+      "released": 2020,
+      "company": "Sony",
+      "imagePath": "./assets/images/ps5.jpg",
+      "imageAlt": "ps5" 
+    },
+    {
+      "name":"Xbox Series X",
+      "released": 2020,
+      "company": "Microsoft",
+      "imagePath": "./assets/images/xBox-seriesX.png",
+      "imageAlt": "SeriesX"  
+    },
+    {
+      "name":"Gaming PC",
+      "released": 2025,
+      "company": "Assorted",
+      "imagePath": "./assets/images/gamingPC.jpg",
+      "imageAlt": "pc"  
+    },
+    {
+      "name":"Nintendo Switch 2",
+      "released": 2025,
+      "company": "Nintendo",
+      "imagePath": "./assets/images/nintendoSwitch2.png",
+      "imageAlt": "switch2"  
+    },
+    {
+      "name":"Steam Deck",
+      "released": 2022,
+      "company": "Steam",
+      "imagePath": "./assets/images/steamDeck.jpg",
+      "imageAlt": "gba"  
+    },
+    {
+      "name":"Oculus Rift",
+      "released": 2016,
+      "company": "Oculus VR", 
+      "imagePath": "./assets/images/oculusRift.png",
+      "imageAlt": "oculus"
+    }
+  ]
+}

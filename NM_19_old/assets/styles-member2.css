@@ -1,0 +1,55 @@
+/* Stylesheet for Team Member 2 */
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+header {
+  min-height: 50px;
+  background: black;
+}
+
+footer {
+  min-height: 20px;
+  background: black;
+  margin-top: 300px;
+  
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+h1 {
+    text-align: center;
+    color: black;
+    font-family:'Roboto', sans-serif;
+}
+
+
+.links{
+    text-emphasis-color: white;
+    float:inline-end;
+}
+
+.foot-right{
+    float: right;
+    margin-right: 20px;
+    color: white;
+
+}
+.foot-left{
+    float:left;
+    margin-left: 10px;
+    
+}
+
+.label-par{
+    color: black;
+    background-color: white;
+}
+.mb-0{
+  color:green;
+}
